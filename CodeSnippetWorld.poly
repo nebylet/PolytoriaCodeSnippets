@@ -1,0 +1,2225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game version="1.4.106">
+  <Item class="Environment">
+    <Properties>
+      <int name="Skybox">0</int>
+      <vector3 name="Gravity">
+        <X>0.0000</X>
+        <Y>-85.0000</Y>
+        <Z>0.0000</Z>
+      </vector3>
+      <boolean name="FogEnabled">false</boolean>
+      <float name="FogStartDistance">0.0000</float>
+      <float name="FogEndDistance">250.0000</float>
+      <color name="FogColor">
+        <R>1.0000</R>
+        <G>1.0000</G>
+        <B>1.0000</B>
+        <A>1.0000</A>
+      </color>
+      <float name="PartDestroyHeight">-2000.0000</float>
+      <boolean name="AutoGenerateNavMesh">false</boolean>
+      <string name="Name">Environment</string>
+    </Properties>
+    <Item class="Camera">
+      <Properties>
+        <int name="Mode">0</int>
+        <float name="FOV">60.0000</float>
+        <boolean name="Orthographic">false</boolean>
+        <float name="OrthographicSize">5.0000</float>
+        <float name="MinDistance">0.0000</float>
+        <float name="MaxDistance">150.0000</float>
+        <boolean name="ClipThroughWalls">false</boolean>
+        <boolean name="CanLock">true</boolean>
+        <vector3 name="PositionOffset">
+          <X>0.0000</X>
+          <Y>0.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="RotationOffset">
+          <X>0.0000</X>
+          <Y>0.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="Position">
+          <X>0.0000</X>
+          <Y>8.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="Rotation">
+          <X>0.0000</X>
+          <Y>0.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="LocalPosition">
+          <X>0.0000</X>
+          <Y>8.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="LocalRotation">
+          <X>0.0000</X>
+          <Y>0.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="Size">
+          <X>1.0000</X>
+          <Y>1.0000</Y>
+          <Z>1.0000</Z>
+        </vector3>
+        <vector3 name="LocalSize">
+          <X>1.0000</X>
+          <Y>1.0000</Y>
+          <Z>1.0000</Z>
+        </vector3>
+        <string name="Name">Camera</string>
+      </Properties>
+    </Item>
+    <Item class="Folder">
+      <Properties>
+        <string name="Name">Sections</string>
+      </Properties>
+      <Item class="Folder">
+        <Properties>
+          <string name="Name">Spawn</string>
+        </Properties>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2734</R>
+              <G>0.7825</G>
+              <B>0.6783</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>32.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>32.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Floor</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.6392</R>
+              <G>0.6353</G>
+              <B>0.6471</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">true</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">14</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>2.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>2.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>8.0000</X>
+              <Y>1.0000</Y>
+              <Z>8.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>8.0000</X>
+              <Y>1.0000</Y>
+              <Z>8.0000</Z>
+            </vector3>
+            <string name="Name">Spawn</string>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Folder">
+        <Properties>
+          <string name="Name">Hallway</string>
+        </Properties>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>128.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>128.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>96.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>96.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>64.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>64.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>256.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>256.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>224.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>224.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>192.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>192.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>160.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>160.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>384.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>384.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>352.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>352.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2745</R>
+              <G>0.7843</G>
+              <B>0.6784</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>320.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>320.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+        <Item class="Part">
+          <Properties>
+            <color name="Color">
+              <R>0.2194</R>
+              <G>0.6513</G>
+              <B>0.5171</B>
+              <A>1.0000</A>
+            </color>
+            <boolean name="Anchored">true</boolean>
+            <boolean name="CanCollide">true</boolean>
+            <boolean name="IsSpawn">false</boolean>
+            <boolean name="HideStuds">false</boolean>
+            <int name="Shape">0</int>
+            <int name="Material">5</int>
+            <vector3 name="Velocity">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <float name="Drag">0.0000</float>
+            <float name="AngularDrag">0.0000</float>
+            <float name="Mass">0.0000</float>
+            <boolean name="UseGravity">true</boolean>
+            <float name="Bounciness">0.0000</float>
+            <float name="Friction">0.6000</float>
+            <int name="FrictionCombine">0</int>
+            <int name="BounceCombine">0</int>
+            <vector3 name="Position">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>288.0000</Z>
+            </vector3>
+            <vector3 name="Rotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="LocalPosition">
+              <X>0.0000</X>
+              <Y>1.0000</Y>
+              <Z>288.0000</Z>
+            </vector3>
+            <vector3 name="LocalRotation">
+              <X>0.0000</X>
+              <Y>0.0000</Y>
+              <Z>0.0000</Z>
+            </vector3>
+            <vector3 name="Size">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <vector3 name="LocalSize">
+              <X>16.0000</X>
+              <Y>1.0000</Y>
+              <Z>32.0000</Z>
+            </vector3>
+            <string name="Name">Hall</string>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Folder">
+        <Properties>
+          <string name="Name">Tutorials</string>
+        </Properties>
+        <Item class="Folder">
+          <Properties>
+            <string name="Name">Death Brick</string>
+          </Properties>
+          <Item class="ScriptInstance">
+            <Properties>
+              <string name="Source">local npc = script.Parent["NPC"]:Clone()
+npc.Name = "og"
+local pos = npc.Position
+npc.Position = Vector3.New(0,0,999)
+npc.Anchored = true
+
+script.Parent["NPC"].Died:Connect(function()
+	script.Parent["NPC"]["Counter"].Text = script.Parent["NPC"].Health
+	script.Parent["NPC"]:Delete(2)
+	script.Parent["NPC"].Name = "Dead"
+	
+	local new = npc:Clone()
+	new.Name = "NPC"
+	new.Anchored = false
+	new.Position = pos
+end)
+
+while true do
+
+	if script.Parent["NPC"] ~=nil then
+		script.Parent["NPC"]["Counter"].Text = script.Parent["NPC"].Health
+	end
+	wait(0.1)
+end</string>
+              <string name="Name">Spawn NPC</string>
+            </Properties>
+          </Item>
+          <Item class="NPC">
+            <Properties>
+              <color name="HeadColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <color name="TorsoColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <color name="LeftArmColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <color name="RightArmColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <color name="LeftLegColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <color name="RightLegColor">
+                <R>1.0000</R>
+                <G>1.0000</G>
+                <B>1.0000</B>
+                <A>1.0000</A>
+              </color>
+              <boolean name="Anchored">false</boolean>
+              <float name="Health">60.0000</float>
+              <float name="MaxHealth">60.0000</float>
+              <float name="WalkSpeed">16.0000</float>
+              <int name="ShirtID">0</int>
+              <int name="PantsID">0</int>
+              <int name="FaceID">0</int>
+              <vector3 name="Position">
+                <X>-37.0000</X>
+                <Y>5.0000</Y>
+                <Z>31.0000</Z>
+              </vector3>
+              <vector3 name="Rotation">
+                <X>0.0000</X>
+                <Y>90.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="LocalPosition">
+                <X>-37.0000</X>
+                <Y>5.0000</Y>
+                <Z>31.0000</Z>
+              </vector3>
+              <vector3 name="LocalRotation">
+                <X>0.0000</X>
+                <Y>90.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="Size">
+                <X>1.0000</X>
+                <Y>1.0000</Y>
+                <Z>1.0000</Z>
+              </vector3>
+              <vector3 name="LocalSize">
+                <X>1.0000</X>
+                <Y>1.0000</Y>
+                <Z>1.0000</Z>
+              </vector3>
+              <string name="Name">NPC</string>
+            </Properties>
+            <Item class="Text3D">
+              <Properties>
+                <string name="Text">100</string>
+                <color name="Color">
+                  <R>1.0000</R>
+                  <G>0.0369</G>
+                  <B>0.0369</B>
+                  <A>1.0000</A>
+                </color>
+                <float name="FontSize">20.0000</float>
+                <boolean name="FaceCamera">true</boolean>
+                <int name="HorizontalAlignment">2</int>
+                <int name="VerticalAlignment">512</int>
+                <int name="Font">2</int>
+                <vector3 name="Position">
+                  <X>-37.0000</X>
+                  <Y>8.5000</Y>
+                  <Z>31.0000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>13.7152</X>
+                  <Y>314.2530</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>0.0000</X>
+                  <Y>3.5000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>13.7152</X>
+                  <Y>224.2530</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>0.5000</X>
+                  <Y>0.5000</Y>
+                  <Z>0.5000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>0.5000</X>
+                  <Y>0.5000</Y>
+                  <Z>0.5000</Z>
+                </vector3>
+                <string name="Name">Counter</string>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="Part">
+            <Properties>
+              <color name="Color">
+                <R>0.6209</R>
+                <G>0.7804</G>
+                <B>0.2706</B>
+                <A>1.0000</A>
+              </color>
+              <boolean name="Anchored">true</boolean>
+              <boolean name="CanCollide">true</boolean>
+              <boolean name="IsSpawn">false</boolean>
+              <boolean name="HideStuds">false</boolean>
+              <int name="Shape">0</int>
+              <int name="Material">5</int>
+              <vector3 name="Velocity">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <float name="Drag">0.0000</float>
+              <float name="AngularDrag">0.0000</float>
+              <float name="Mass">0.0000</float>
+              <boolean name="UseGravity">true</boolean>
+              <float name="Bounciness">0.0000</float>
+              <float name="Friction">0.6000</float>
+              <int name="FrictionCombine">0</int>
+              <int name="BounceCombine">0</int>
+              <vector3 name="Position">
+                <X>-40.0000</X>
+                <Y>1.0000</Y>
+                <Z>32.0000</Z>
+              </vector3>
+              <vector3 name="Rotation">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="LocalPosition">
+                <X>-40.0000</X>
+                <Y>1.0000</Y>
+                <Z>32.0000</Z>
+              </vector3>
+              <vector3 name="LocalRotation">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="Size">
+                <X>64.0000</X>
+                <Y>1.0000</Y>
+                <Z>16.0000</Z>
+              </vector3>
+              <vector3 name="LocalSize">
+                <X>64.0000</X>
+                <Y>1.0000</Y>
+                <Z>16.0000</Z>
+              </vector3>
+              <string name="Name">Baseplate</string>
+            </Properties>
+          </Item>
+          <Item class="Folder">
+            <Properties>
+              <string name="Name">Signs</string>
+            </Properties>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>0.6392</R>
+                  <G>0.6353</G>
+                  <B>0.6471</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">14</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-16.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-16.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <string name="Name">Sign</string>
+              </Properties>
+              <Item class="Text3D">
+                <Properties>
+                  <string name="Text">testing 123</string>
+                  <color name="Color">
+                    <R>0.0000</R>
+                    <G>0.0000</G>
+                    <B>0.0000</B>
+                    <A>1.0000</A>
+                  </color>
+                  <float name="FontSize">5.0000</float>
+                  <boolean name="FaceCamera">false</boolean>
+                  <int name="HorizontalAlignment">0</int>
+                  <int name="VerticalAlignment">5</int>
+                  <int name="Font">2</int>
+                  <vector3 name="Position">
+                    <X>-22.4526</X>
+                    <Y>9.7504</Y>
+                    <Z>39.9525</Z>
+                  </vector3>
+                  <vector3 name="Rotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="LocalPosition">
+                    <X>-0.4609</X>
+                    <Y>0.4063</Y>
+                    <Z>-0.5475</Z>
+                  </vector3>
+                  <vector3 name="LocalRotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="Size">
+                    <X>0.4998</X>
+                    <Y>0.5000</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <vector3 name="LocalSize">
+                    <X>0.0357</X>
+                    <Y>0.0625</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <string name="Name">Line1</string>
+                </Properties>
+              </Item>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">local object = script.Parent["Line1"]
+script.Parent["Line1"].Text = '--PLAYER KILL BRICK--\n\z
+||script.Parent.Touched:Connect(function(hitPart)-- triggers a kill function when brick is touched\n\z
+||    if hitPart:IsA("Player") then-- if you want to include npcs you can add: "or hitPart:IsA("NPC")"\n\z
+||        hitPart.Health = 0\n\z
+||    end\n\z
+||end)\n\z
+'
+</string>
+                  <string name="Name">TextScript</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>0.6392</R>
+                  <G>0.6353</G>
+                  <B>0.6471</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">14</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-32.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-32.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <string name="Name">Sign</string>
+              </Properties>
+              <Item class="Text3D">
+                <Properties>
+                  <string name="Text">testing 123</string>
+                  <color name="Color">
+                    <R>0.0000</R>
+                    <G>0.0000</G>
+                    <B>0.0000</B>
+                    <A>1.0000</A>
+                  </color>
+                  <float name="FontSize">5.0000</float>
+                  <boolean name="FaceCamera">false</boolean>
+                  <int name="HorizontalAlignment">0</int>
+                  <int name="VerticalAlignment">5</int>
+                  <int name="Font">2</int>
+                  <vector3 name="Position">
+                    <X>-38.4526</X>
+                    <Y>9.7504</Y>
+                    <Z>39.9525</Z>
+                  </vector3>
+                  <vector3 name="Rotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="LocalPosition">
+                    <X>-0.4609</X>
+                    <Y>0.4063</Y>
+                    <Z>-0.5475</Z>
+                  </vector3>
+                  <vector3 name="LocalRotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="Size">
+                    <X>0.4998</X>
+                    <Y>0.5000</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <vector3 name="LocalSize">
+                    <X>0.0357</X>
+                    <Y>0.0625</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <string name="Name">Line1</string>
+                </Properties>
+              </Item>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">local object = script.Parent["Line1"]
+script.Parent["Line1"].Text = '--DAMAGE BRICK INCLUDING NPCS--\n\z
+||script.Parent.Touched:Connect(function(hitPart)-- triggers a hurt function when brick is touched\n\z
+||    if hitPart:IsA("Player") or hitPart:IsA("NPC") then -- now also affects npcs\n\z
+||        hitPart.Health = hitPart.Health - 20-- just damages the target\n\z
+||    end\n\z
+||end)\n\z
+\n--!REMINDER!--\n\z
+Keep in mind that .Touched only triggers once something starts touching\n\z
+So any player can walk about on it and only activate it once since they\n\z
+technically never stopped touching so they couldn`t start touching again.\n\z
+Try it out you will only get damaged once if you walk and don`t jump on it\n\z
+'
+</string>
+                  <string name="Name">TextScript</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>0.6392</R>
+                  <G>0.6353</G>
+                  <B>0.6471</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">14</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-48.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-48.0000</X>
+                  <Y>6.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>14.0000</X>
+                  <Y>8.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <string name="Name">Sign</string>
+              </Properties>
+              <Item class="Text3D">
+                <Properties>
+                  <string name="Text">testing 123</string>
+                  <color name="Color">
+                    <R>0.0000</R>
+                    <G>0.0000</G>
+                    <B>0.0000</B>
+                    <A>1.0000</A>
+                  </color>
+                  <float name="FontSize">5.0000</float>
+                  <boolean name="FaceCamera">false</boolean>
+                  <int name="HorizontalAlignment">0</int>
+                  <int name="VerticalAlignment">5</int>
+                  <int name="Font">2</int>
+                  <vector3 name="Position">
+                    <X>-54.4526</X>
+                    <Y>9.7504</Y>
+                    <Z>39.9525</Z>
+                  </vector3>
+                  <vector3 name="Rotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="LocalPosition">
+                    <X>-0.4609</X>
+                    <Y>0.4063</Y>
+                    <Z>-0.5475</Z>
+                  </vector3>
+                  <vector3 name="LocalRotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="Size">
+                    <X>0.4998</X>
+                    <Y>0.5000</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <vector3 name="LocalSize">
+                    <X>0.0357</X>
+                    <Y>0.0625</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <string name="Name">Line1</string>
+                </Properties>
+              </Item>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">local object = script.Parent["Line1"]
+script.Parent["Line1"].Text = '--HEAL BRICK--\n\z
+||script.Parent.Touched:Connect(function(hitPart)-- triggers a heal function when brick is touched\n\z
+||    if hitPart:IsA("Player") or hitPart:IsA("NPC") then -- now also affects npcs\n\z
+||        hitPart.Health = hitPart.Health + 20-- just increases the target`s health\n\z
+||    end\n\z
+||end)\n\z
+'
+</string>
+                  <string name="Name">TextScript</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>0.6392</R>
+                  <G>0.6353</G>
+                  <B>0.6471</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">14</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-64.0000</X>
+                  <Y>8.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-64.0000</X>
+                  <Y>8.5000</Y>
+                  <Z>40.5000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>14.0000</X>
+                  <Y>12.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>14.0000</X>
+                  <Y>12.0000</Y>
+                  <Z>1.0000</Z>
+                </vector3>
+                <string name="Name">Sign</string>
+              </Properties>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">local object = script.Parent["Line1"]
+script.Parent["Line1"].Text = '--BURNING BRICK--\n\z
+||local touchingParts = {}-- table which will contain all npcs and players touching this brick\n\z
+||script.Parent.Touched:Connect(function(hitPart)\n\z
+||    if hitPart:IsA("Player") or hitPart:IsA("NPC") then-- checks if target is player or npc\n\z
+||        table.insert(touchingParts,hitPart)-- adds target to list so we know that they are touching\n\z
+||    end\n\z
+||end)\n\z
+||script.Parent.TouchEnded:Connect(function(hitPart)-- triggers when a part leaves this brick\n\z
+||    if hitPart:IsA("Player") or hitPart:IsA("NPC") then-- checks if target is player or npc\n\z
+||        for i,v in ipairs(touchingParts)do-- finds the leaving target in the table\n\z
+||            if v==hitPart then-- checks if v is the leaving target\n\z
+||                table.remove(touchingParts,i)\n\z
+||                break-- exits loop since we removed the target that stopped touching\n\z
+||            end\n\z
+||        end\n\z
+||    end\n\z
+||end)\n\z
+||while true do\n\z
+||    for i,v in ipairs(touchingParts)do-- all currently touching players and npcs\n\z
+||        v.Health=v.Health-4-- damages currently touching player or npc by 4\n\z
+||    end\n\z
+||    wait(0.1)-- every 0.1 seconds it will damage all currently touching players and npcs.\n\z
+||end\n\z
+\n\z--!Reminder!--\n\z
+There are better ways to program bricks when you get more advanced where\n\z
+you centralise all the scripts of like a kill brick to one place by checking\n\z
+from the player like this player.Touched then checking if the brick is a specific\n\z
+type then add do whatever to the player depending on the bricks type.\n\z
+'
+</string>
+                  <string name="Name">TextScript</string>
+                </Properties>
+              </Item>
+              <Item class="Text3D">
+                <Properties>
+                  <string name="Text">testing 123</string>
+                  <color name="Color">
+                    <R>0.0000</R>
+                    <G>0.0000</G>
+                    <B>0.0000</B>
+                    <A>1.0000</A>
+                  </color>
+                  <float name="FontSize">5.0000</float>
+                  <boolean name="FaceCamera">false</boolean>
+                  <int name="HorizontalAlignment">0</int>
+                  <int name="VerticalAlignment">5</int>
+                  <int name="Font">2</int>
+                  <vector3 name="Position">
+                    <X>-70.4526</X>
+                    <Y>13.7504</Y>
+                    <Z>39.9525</Z>
+                  </vector3>
+                  <vector3 name="Rotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="LocalPosition">
+                    <X>-0.4609</X>
+                    <Y>0.4375</Y>
+                    <Z>-0.5475</Z>
+                  </vector3>
+                  <vector3 name="LocalRotation">
+                    <X>0.0000</X>
+                    <Y>0.0000</Y>
+                    <Z>0.0000</Z>
+                  </vector3>
+                  <vector3 name="Size">
+                    <X>0.4998</X>
+                    <Y>0.5000</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <vector3 name="LocalSize">
+                    <X>0.0357</X>
+                    <Y>0.0417</Y>
+                    <Z>0.5000</Z>
+                  </vector3>
+                  <string name="Name">Line1</string>
+                </Properties>
+              </Item>
+            </Item>
+          </Item>
+          <Item class="Folder">
+            <Properties>
+              <string name="Name">Bricks</string>
+            </Properties>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>1.0000</R>
+                  <G>0.0000</G>
+                  <B>0.0000</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">3</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-16.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-16.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <string name="Name">Death</string>
+              </Properties>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">script.Parent.Touched:Connect(function(hitPart)--Triggers a function when brick touched
+	if hitPart:IsA("Player") then-- If you want to include npcs you can add: "or hitPart:IsA("NPC")"
+		hitPart.Health = 0
+		--Kills player but if you want to only damage them then you can instead do:
+		--hitPart.Health = hitPart.Health - @Insert Damage Number here@
+	end
+end)</string>
+                  <string name="Name">Death Brick</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>1.0000</R>
+                  <G>0.3247</G>
+                  <B>0.0000</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">3</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-32.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-32.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <string name="Name">Damage</string>
+              </Properties>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">script.Parent.Touched:Connect(function(hitPart)
+	if hitPart:IsA("Player") or hitPart:IsA("NPC") then
+		print(hitPart.Name)
+		hitPart.Health = hitPart.Health-20
+	end
+end)</string>
+                  <string name="Name">Damage Brick</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>0.0000</R>
+                  <G>1.0000</G>
+                  <B>0.1961</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">3</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-48.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-48.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <string name="Name">Heal</string>
+              </Properties>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">script.Parent.Touched:Connect(function(hitPart)
+	if hitPart:IsA("Player") or hitPart:IsA("NPC") then
+		print(hitPart.Name)
+		hitPart.Health = hitPart.Health+20
+	end
+end)</string>
+                  <string name="Name">Heal Brick</string>
+                </Properties>
+              </Item>
+            </Item>
+            <Item class="Part">
+              <Properties>
+                <color name="Color">
+                  <R>1.0000</R>
+                  <G>0.0000</G>
+                  <B>0.0000</B>
+                  <A>1.0000</A>
+                </color>
+                <boolean name="Anchored">true</boolean>
+                <boolean name="CanCollide">true</boolean>
+                <boolean name="IsSpawn">false</boolean>
+                <boolean name="HideStuds">false</boolean>
+                <int name="Shape">0</int>
+                <int name="Material">2</int>
+                <vector3 name="Velocity">
+                  <X>0.0000</X>
+                  <Y>0.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <float name="Drag">0.0000</float>
+                <float name="AngularDrag">0.0000</float>
+                <float name="Mass">0.0000</float>
+                <boolean name="UseGravity">true</boolean>
+                <float name="Bounciness">0.0000</float>
+                <float name="Friction">0.6000</float>
+                <int name="FrictionCombine">0</int>
+                <int name="BounceCombine">0</int>
+                <vector3 name="Position">
+                  <X>-64.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="Rotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="LocalPosition">
+                  <X>-64.0000</X>
+                  <Y>2.0000</Y>
+                  <Z>32.0000</Z>
+                </vector3>
+                <vector3 name="LocalRotation">
+                  <X>0.0000</X>
+                  <Y>90.0000</Y>
+                  <Z>0.0000</Z>
+                </vector3>
+                <vector3 name="Size">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <vector3 name="LocalSize">
+                  <X>5.9999</X>
+                  <Y>1.0000</Y>
+                  <Z>2.0000</Z>
+                </vector3>
+                <string name="Name">Lava</string>
+              </Properties>
+              <Item class="ScriptInstance">
+                <Properties>
+                  <string name="Source">local touchingParts = {}
+script.Parent.Touched:Connect(function(hitPart)
+	if hitPart:IsA("Player") or hitPart:IsA("NPC") then
+		table.insert(touchingParts,hitPart)
+	end
+end)
+script.Parent.TouchEnded:Connect(function(hitPart)
+	if hitPart:IsA("Player") or hitPart:IsA("NPC") then
+		for i,v in ipairs(touchingParts)do
+			if v==hitPart then--checks if v is the hitPart
+				table.remove(touchingParts,i)
+				break--exits loop since we removed the part that was touching
+			end
+		end
+	end
+end)
+while true do
+	for i,v in ipairs(touchingParts)do
+		v.Health=v.Health-4--damages player or npc by 4
+	end
+	wait(0.1)--every 0.1 seconds it will damage all currently touching parts.
+end
+</string>
+                  <string name="Name">Lava Brick</string>
+                </Properties>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item class="Folder">
+          <Properties>
+            <string name="Name">Rotating Brick</string>
+          </Properties>
+          <Item class="Part">
+            <Properties>
+              <color name="Color">
+                <R>0.6196</R>
+                <G>0.7804</G>
+                <B>0.2706</B>
+                <A>1.0000</A>
+              </color>
+              <boolean name="Anchored">true</boolean>
+              <boolean name="CanCollide">true</boolean>
+              <boolean name="IsSpawn">false</boolean>
+              <boolean name="HideStuds">false</boolean>
+              <int name="Shape">0</int>
+              <int name="Material">5</int>
+              <vector3 name="Velocity">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <float name="Drag">0.0000</float>
+              <float name="AngularDrag">0.0000</float>
+              <float name="Mass">0.0000</float>
+              <boolean name="UseGravity">true</boolean>
+              <float name="Bounciness">0.0000</float>
+              <float name="Friction">0.6000</float>
+              <int name="FrictionCombine">0</int>
+              <int name="BounceCombine">0</int>
+              <vector3 name="Position">
+                <X>16.0000</X>
+                <Y>1.0000</Y>
+                <Z>32.0000</Z>
+              </vector3>
+              <vector3 name="Rotation">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="LocalPosition">
+                <X>16.0000</X>
+                <Y>1.0000</Y>
+                <Z>32.0000</Z>
+              </vector3>
+              <vector3 name="LocalRotation">
+                <X>0.0000</X>
+                <Y>0.0000</Y>
+                <Z>0.0000</Z>
+              </vector3>
+              <vector3 name="Size">
+                <X>16.0000</X>
+                <Y>1.0000</Y>
+                <Z>16.0000</Z>
+              </vector3>
+              <vector3 name="LocalSize">
+                <X>16.0000</X>
+                <Y>1.0000</Y>
+                <Z>16.0000</Z>
+              </vector3>
+              <string name="Name">Baseplate</string>
+            </Properties>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="Lighting">
+    <Properties>
+      <color name="AmbientColor">
+        <R>0.2120</R>
+        <G>0.2270</G>
+        <B>0.2590</B>
+        <A>1.0000</A>
+      </color>
+      <int name="AmbientSource">0</int>
+      <string name="Name">Lighting</string>
+    </Properties>
+    <Item class="SunLight">
+      <Properties>
+        <float name="Brightness">1.0000</float>
+        <color name="Color">
+          <R>1.0000</R>
+          <G>0.9569</G>
+          <B>0.8392</B>
+          <A>1.0000</A>
+        </color>
+        <boolean name="Shadows">true</boolean>
+        <vector3 name="Position">
+          <X>0.0000</X>
+          <Y>15.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="Rotation">
+          <X>50.0000</X>
+          <Y>330.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="LocalPosition">
+          <X>0.0000</X>
+          <Y>15.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="LocalRotation">
+          <X>50.0000</X>
+          <Y>330.0000</Y>
+          <Z>0.0000</Z>
+        </vector3>
+        <vector3 name="Size">
+          <X>1.0000</X>
+          <Y>1.0000</Y>
+          <Z>1.0000</Z>
+        </vector3>
+        <vector3 name="LocalSize">
+          <X>1.0000</X>
+          <Y>1.0000</Y>
+          <Z>1.0000</Z>
+        </vector3>
+        <string name="Name">SunLight</string>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Players">
+    <Properties>
+      <boolean name="PlayerCollisionEnabled">false</boolean>
+      <string name="Name">Players</string>
+    </Properties>
+  </Item>
+  <Item class="ScriptService">
+    <Properties>
+      <string name="Name">ScriptService</string>
+    </Properties>
+  </Item>
+  <Item class="Hidden">
+    <Properties>
+      <string name="Name">Hidden</string>
+    </Properties>
+  </Item>
+  <Item class="ServerHidden">
+    <Properties>
+      <string name="Name">ServerHidden</string>
+    </Properties>
+  </Item>
+  <Item class="PlayerDefaults">
+    <Properties>
+      <float name="MaxHealth">100.0000</float>
+      <float name="WalkSpeed">16.0000</float>
+      <float name="SprintSpeed">40.0000</float>
+      <boolean name="StaminaEnabled">false</boolean>
+      <float name="Stamina">3.0000</float>
+      <float name="MaxStamina">3.0000</float>
+      <float name="StaminaRegen">1.2000</float>
+      <float name="JumpPower">36.0000</float>
+      <float name="RespawnTime">1.0000</float>
+      <color name="ChatColor">
+        <R>1.0000</R>
+        <G>1.0000</G>
+        <B>1.0000</B>
+        <A>1.0000</A>
+      </color>
+      <string name="Name">PlayerDefaults</string>
+    </Properties>
+    <Item class="Backpack">
+      <Properties>
+        <string name="Name">Backpack</string>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="PlayerGUI">
+    <Properties>
+      <boolean name="Interactable">true</boolean>
+      <float name="Opacity">1.0000</float>
+      <string name="Name">PlayerGUI</string>
+    </Properties>
+    <Item class="GUI">
+      <Properties>
+        <boolean name="Visible">true</boolean>
+        <string name="Name">GUI</string>
+      </Properties>
+      <Item class="LocalScript">
+        <Properties>
+          <string name="Source">script.Parent["Notice"].Visible = true
+
+script.Parent["Notice"].Clicked:Connect(function()
+	script.Parent["Notice"].Visible = false
+end)
+</string>
+          <string name="Name">LocalScript</string>
+        </Properties>
+      </Item>
+      <Item class="UIButton">
+        <Properties>
+          <boolean name="Interactable">true</boolean>
+          <string name="Text">All code can be found at github.com/nebylet/PolytoriaCodeSnippets and some will be uploaded to my youtube Click on any code sign to read the code close up. (Click to continue)</string>
+          <color name="TextColor">
+            <R>0.0000</R>
+            <G>0.0000</G>
+            <B>0.0000</B>
+            <A>1.0000</A>
+          </color>
+          <int name="JustifyText">1</int>
+          <int name="VerticalAlign">1</int>
+          <float name="FontSize">8.0000</float>
+          <float name="MaxFontSize">128.0000</float>
+          <boolean name="AutoSize">true</boolean>
+          <int name="Font">2</int>
+          <color name="BorderColor">
+            <R>0.0000</R>
+            <G>0.0000</G>
+            <B>0.0000</B>
+            <A>1.0000</A>
+          </color>
+          <color name="Color">
+            <R>1.0000</R>
+            <G>1.0000</G>
+            <B>1.0000</B>
+            <A>1.0000</A>
+          </color>
+          <float name="BorderWidth">2.0000</float>
+          <float name="CornerRadius">0.0000</float>
+          <vector2 name="PositionOffset">
+            <X>0.0000</X>
+            <Y>0.0000</Y>
+          </vector2>
+          <vector2 name="PositionRelative">
+            <X>0.5000</X>
+            <Y>0.5000</Y>
+          </vector2>
+          <float name="Rotation">0.0000</float>
+          <vector2 name="SizeOffset">
+            <X>32.0000</X>
+            <Y>128.0000</Y>
+          </vector2>
+          <vector2 name="SizeRelative">
+            <X>0.8000</X>
+            <Y>0.0000</Y>
+          </vector2>
+          <vector2 name="PivotPoint">
+            <X>0.5000</X>
+            <Y>0.5000</Y>
+          </vector2>
+          <boolean name="Visible">false</boolean>
+          <string name="Name">Notice</string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</game>
