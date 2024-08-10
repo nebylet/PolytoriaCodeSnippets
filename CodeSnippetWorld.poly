@@ -1062,8 +1062,8 @@ end</string>
                   <Z>31.0000</Z>
                 </vector3>
                 <vector3 name="Rotation">
-                  <X>13.7152</X>
-                  <Y>314.2530</Y>
+                  <X>357.2001</X>
+                  <Y>269.7013</Y>
                   <Z>0.0000</Z>
                 </vector3>
                 <vector3 name="LocalPosition">
@@ -1072,8 +1072,8 @@ end</string>
                   <Z>0.0000</Z>
                 </vector3>
                 <vector3 name="LocalRotation">
-                  <X>13.7152</X>
-                  <Y>224.2530</Y>
+                  <X>357.2001</X>
+                  <Y>179.7013</Y>
                   <Z>0.0000</Z>
                 </vector3>
                 <vector3 name="Size">

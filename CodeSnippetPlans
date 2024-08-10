@@ -1,0 +1,35 @@
+Code Snippet Planned Tutorials:
+	ScriptedBricks:
+		Deathbrick,Damagebrick,Healbrick,Burningbrick--Done Snippet, Github --Notdone Youtube
+		Tripbrick,
+		Conveyor,
+		Rotating and moving brick (Tween),
+		Trampoline,
+		Minebrick,
+		Checkpoint bricks,
+	Networking:
+		Network events
+	Tools:
+		How to make tools,
+		Jump and speed coil,
+		Sword,
+		Gun,
+		Brick placer
+	Camera:
+		Different view cameras(topdown,side view, etc),
+		Jumpscare,
+		Custom camera paths(for cutscenes)
+	GUI:
+		An intro to UI,
+		Loading screen,
+		Scrolling UI list,
+		Dialogue system
+	NPC:
+		Zombie npc,
+		Interactable npc with "Dialogue System" and custom camera
+	Leaderboards:
+		Leaderstats and leaderboard,
+		Global leaderboard,
+		Money and item shop
+	Data:
+		Save and load data
